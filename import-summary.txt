@@ -1,0 +1,69 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ant.properties
+* build.xml
+* libs-src\
+* libs-src\cglib-src-2.2.jar
+* libs-src\cglib-src-2.2.zip
+* libs-src\easymock-2.5.2-sources.jar
+* libs-src\easymockclassextension-2.5.2-sources.jar
+* libs-src\junit_3.8-src.jar
+* libs-src\objenesis-1.2-sources.jar
+* proguard.cfg
+* test\
+* test\com\
+* test\com\google\
+* test\com\google\android\
+* test\com\google\android\stardroid\
+* test\com\google\android\stardroid\renderer\
+* test\com\google\android\stardroid\renderer\debug\
+* test\com\google\android\stardroid\renderer\debug\DebugSkyRenderer.java
+* test\com\google\android\stardroid\renderer\debug\NumericSprite.java
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+protobuf-java-2.3.0-lite.jar => com.google.protobuf:protobuf-java:2.5
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\libGoogleAnalytics.jar => app\libs\libGoogleAnalytics.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* C:\Users\Uzi\Downloads\Share\stardroid-read-only\trunk\test\libs\easymock-2.5.2.jar => app\libs\easymock-2.5.2.jar
+* C:\Users\Uzi\Downloads\Share\stardroid-read-only\trunk\test\res\ => app\src\androidTest\res\
+* C:\Users\Uzi\Downloads\Share\stardroid-read-only\trunk\test\src\ => app\src\androidTest\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
