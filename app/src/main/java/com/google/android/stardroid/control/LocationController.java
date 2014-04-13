@@ -100,7 +100,7 @@ public class LocationController extends AbstractController implements LocationLi
     locationCriteria.setBearingRequired(false);
     locationCriteria.setCostAllowed(true);
     locationCriteria.setSpeedRequired(false);
-    locationCriteria.setPowerRequirement(Criteria.POWER_LOW);
+    locationCriteria.setPowerRequirement(Criteria.POWER_HIGH);
 
     String locationProvider = locationManager.getBestProvider(locationCriteria, true);
     if (locationProvider == null) {

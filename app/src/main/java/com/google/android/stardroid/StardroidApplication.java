@@ -17,6 +17,7 @@ import com.google.android.stardroid.activities.DynamicStarMapActivity;
 import com.google.android.stardroid.control.AstronomerModel;
 import com.google.android.stardroid.control.AstronomerModelImpl;
 import com.google.android.stardroid.control.ZeroMagneticDeclinationCalculator;
+import com.google.android.stardroid.layers.EarthLayer;
 import com.google.android.stardroid.layers.EclipticLayer;
 import com.google.android.stardroid.layers.GridLayer;
 import com.google.android.stardroid.layers.HorizonLayer;
@@ -186,6 +187,7 @@ public class StardroidApplication extends Application {
       layerManager.addLayer(new HorizonLayer(getModel(), resources));
       layerManager.addLayer(new EclipticLayer(resources));
       layerManager.addLayer(new SkyGradientLayer(getModel(), resources));
+      layerManager.addLayer(new EarthLayer(getModel(), resources));
       // layerManager.addLayer(new IssLayer(resources, getModel()));
       layerManager.initialize();
     } else {

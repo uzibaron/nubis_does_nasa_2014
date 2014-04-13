@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:fillEnabled="true">
+  <alpha android:fromAlpha="0.0"
+         android:toAlpha="0.7"
+         android:duration="1000"
+         android:fillAfter="true"/>
+  <alpha android:fromAlpha="0.7"
+         android:toAlpha="0.0"
+         android:duration="1000"
+         android:startOffset="1000"/>
+</set><!-- From: file:/C:/Users/george.slavov/projects/nubis_does_nasa_2014/app/src/main/res/anim/timetravelflash.xml -->

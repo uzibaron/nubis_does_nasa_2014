@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\george.slavov\projects\nubis_does_nasa_2014\app\src\main\assets" >
+            <file
+                name="constellations.binary"
+                path="C:\Users\george.slavov\projects\nubis_does_nasa_2014\app\src\main\assets\constellations.binary" />
+            <file
+                name="messier.binary"
+                path="C:\Users\george.slavov\projects\nubis_does_nasa_2014\app\src\main\assets\messier.binary" />
+            <file
+                name="stars.binary"
+                path="C:\Users\george.slavov\projects\nubis_does_nasa_2014\app\src\main\assets\stars.binary" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\george.slavov\projects\nubis_does_nasa_2014\app\src\debug\assets" />
+    </dataSet>
+
+</merger>

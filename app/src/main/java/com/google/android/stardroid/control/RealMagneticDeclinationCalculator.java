@@ -41,12 +41,13 @@ public class RealMagneticDeclinationCalculator implements MagneticDeclinationCal
 
   /**
    * Sets the user's current location and time.
+   * SET ALTITUDE TO 100km for space tourism - George
    */
   @Override
   public void setLocationAndTime(LatLong location, long timeInMillis) {
     geomagneticField = new GeomagneticField(location.latitude,
                                             location.longitude,
-                                            0,
+                                            100000,
                                             timeInMillis);
   }
 

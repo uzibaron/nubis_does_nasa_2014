@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/george.slavov/projects/nubis_does_nasa_2014/app/src/main/res/values-en-rGB/strings.xml -->
+    <eat-comment />
+
+    <string name="eula_dialog_title">End User Licence Agreement</string>
+    <string name="location_placename_hint" translation_description="An example address.  Translators: please pick an address suitable for your country.  If it has an astronomical connection (e.g. the address of an observatory or famous astronomer) then that would be even better.">e.g. The Royal Observatory of Edinburgh</string>
+
+</resources>
