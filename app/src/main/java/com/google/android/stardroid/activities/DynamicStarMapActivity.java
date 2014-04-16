@@ -178,10 +178,10 @@ public class DynamicStarMapActivity extends Activity implements OnSharedPreferen
     sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
     sharedPreferences.registerOnSharedPreferenceChangeListener(this);
 
-    boolean eulaConfirmed = sharedPreferences.getBoolean(READ_TOS_PREF, false);
-    if (!eulaConfirmed) {
-      showDialog(DialogFactory.DIALOG_EULA_WITH_BUTTONS);
-    }
+//    boolean eulaConfirmed = sharedPreferences.getBoolean(READ_TOS_PREF, false);
+//    if (!eulaConfirmed) {
+//      showDialog(DialogFactory.DIALOG_EULA_WITH_BUTTONS);
+//    }
 
     getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON,
         WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
