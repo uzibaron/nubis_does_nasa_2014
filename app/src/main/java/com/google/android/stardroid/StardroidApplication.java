@@ -81,7 +81,7 @@ public class StardroidApplication extends Application {
     Log.i(TAG, "OS Version: " + android.os.Build.VERSION.RELEASE
         + "(" + android.os.Build.VERSION.SDK + ")");
     String versionName = getVersionName();
-    Log.i(TAG, "Sky Map version " + versionName + " build " + getVersion());
+    Log.i(TAG, "Galaxico version " + versionName + " build " + getVersion());
     backgroundExecutor = new ScheduledThreadPoolExecutor(1);
     // This populates the default values from the preferences XML file. See
     // {@link DefaultValues} for more details.
@@ -124,7 +124,7 @@ public class StardroidApplication extends Application {
           Analytics.PREVIOUS_VERSION + previousVersion, 1);
     }
 
-    // It will be interesting to see *when* people use Sky Map.
+    // It will be interesting to see *when* people use Galaxico.
     analytics.trackEvent(
         Analytics.GENERAL_CATEGORY, Analytics.START_HOUR,
         Integer.toString(Calendar.getInstance().get(Calendar.HOUR_OF_DAY)) + 'h', 0);
@@ -139,7 +139,7 @@ public class StardroidApplication extends Application {
   }
 
   /**
-   * Returns the version string for Sky Map.
+   * Returns the version string for Galaxico.
    */
   public String getVersionName() {
     PackageManager packageManager = getPackageManager();
@@ -153,7 +153,7 @@ public class StardroidApplication extends Application {
   }
 
   /**
-   * Returns the build number for Sky Map.
+   * Returns the build number for Galaxico.
    */
   public int getVersion() {
     PackageManager packageManager = getPackageManager();

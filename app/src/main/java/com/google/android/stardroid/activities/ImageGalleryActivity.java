@@ -41,7 +41,7 @@ import java.util.List;
 
 /**
  * Displays a series of images to the user.  Selecting an image
- * invokes Sky Map Search.
+ * invokes Galaxico Search.
  *
  * @author John Taylor
  */

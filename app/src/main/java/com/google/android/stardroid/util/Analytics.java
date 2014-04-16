@@ -118,10 +118,10 @@ public class Analytics {
   }
 
   /**
-   * Sets the version of Sky Map.  This must be called before the first call to setEnabled();
+   * Sets the version of Galaxico.  This must be called before the first call to setEnabled();
    */
   public void setProductVersion(String versionString) {
-    GoogleAnalyticsTracker.getInstance().setProductVersion("Google Sky Map", versionString);
+    GoogleAnalyticsTracker.getInstance().setProductVersion("Galaxico", versionString);
   }
 
   /**
